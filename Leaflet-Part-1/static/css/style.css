@@ -1,0 +1,17 @@
+/*Form the body of the legend box*/
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/*Design the legend box*/
+#map { height: 100vh; } /*Assign legend box to map class*/
+  .legend {
+  background: white; /*Set background color of box*/
+  padding: 10px; /*Add space between legend icons and outer edges of box*/
+  border-radius: 0px; /*Set border radius*/
+  box-shadow: 0 0 5px rgba(0, 94, 255, 1); /*Put a blue shadow behind the box*/
+  }
+    .legend div {
+    margin-bottom: 0px; /*Minimize space between legend icons in box*/
+  }
